@@ -1,14 +1,12 @@
 import './App.css';
+import ProjectTile from './components/projectTile';
 
 const App = () => {
   return (
     <main className="app-main">
+      <header className="app-header">Portfolio Suite</header>
       <div className="app-card">
-        <h1 className="app-title">Hello world</h1>
-
-        <p className="app-description">
-          A clean starting page with a champagne · blush · emerald palette.
-        </p>
+        <ProjectTile title="User List" description="Searchable list of users" />
       </div>
     </main>
   );
