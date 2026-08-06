@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import './projectTile.css';
+import './ProjectTile.css';
 
 interface ProjectTileProps {
   title: string;

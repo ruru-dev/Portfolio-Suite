@@ -1,5 +1,5 @@
 import './App.css';
-import ProjectTile from './components/projectTile';
+import ProjectTile from './components/ProjectTile';
 
 const App = () => {
   return (
